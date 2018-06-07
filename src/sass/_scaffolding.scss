@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif);
+
+// Scaffolding
+* {
+
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+
+}
+
+
+// Base
+html {
+  height: 100%;
+  min-height: 100%;
+  background-color: $color-offWhite;
+  background-attachment: fixed;
+}
+
+body {
+  color: $color-black;
+  background-color: $color-offWhite;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+  font-size: 4em;
+}
+
+h4 {
+  line-height: 1.35em;
+}
+
+
+// Margins
+.margin {
+
+  &--medium {
+    margin: 2rem auto;
+  }
+
+  &--large {
+    margin: 6rem auto;
+  }
+
+}
+
+
+// Paddings
+.padding {
+
+  &--medium {
+    padding: 2rem;
+  }
+
+}
+
+
+// Positioning
+.position {
+
+  @media screen and (orientation: landscape) {
+    &--bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+}

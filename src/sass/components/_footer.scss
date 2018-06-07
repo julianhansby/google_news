@@ -1,0 +1,25 @@
+.footer {
+	color: $color-white;
+	background: linear-gradient(#30333a, #444);
+	margin-top: 5%;
+	text-align: center;
+    padding: 2% 0;
+    .logo {
+    	img {
+    		width: 100px;
+    	}
+    }
+    .footer-links {
+		padding: 2% 10px;
+	    a {
+	    	color: $color-white;
+	    	text-decoration: none;
+	    	padding: 0 2%;
+	    	float: left;
+	    	display: inline-block;
+	    	&:hover {
+	    		text-decoration: underline;
+	    	}
+	    }		
+    }
+}
